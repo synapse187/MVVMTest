@@ -1,0 +1,9 @@
+namespace MVVMTest
+{
+    runtimeclass HostViewModel : Windows.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        HostViewModel();
+        Int32 Str;
+        Int32 End;
+    }
+}
